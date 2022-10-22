@@ -10,7 +10,7 @@ app.use(morgan("common"));
 
 app.get('/' , (req , res)=>{
 
-   res.send('<h2>Docker helloss! </h2>)');
+   res.send('<h2>Docker hello sờ lô </h2>)');
 });
 
 app.listen(port, () => {
